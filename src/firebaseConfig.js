@@ -6,14 +6,14 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
-    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+    apiKey: "AIzaSyBHeToVeNaikiGKLl9oDFA7xtzmJF5OKq0",
+    authDomain: "tour-voucher.firebaseapp.com",
+    databaseURL: "https://tour-voucher-default-rtdb.firebaseio.com",
+    projectId: "tour-voucher",
+    storageBucket: "tour-voucher.firebasestorage.app",
+    messagingSenderId: "794126644925",
+    appId: "1:794126644925:web:26ca45a55297c76934a9d4",
+    measurementId: "G-HTLKY7S0SZ"
 };
 
 // Initialize Firebase
